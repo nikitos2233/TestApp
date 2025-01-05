@@ -2,9 +2,8 @@
 import streamlit as st
 
 # Заголовок приложения
-st.title("🎈 My new app")
-st.title("Выглядит говнисто")
-st.write("Но что поделать")
+st.title("🎈 Brendas Calc")
+st.image("Images/programmer.png", caption="Autor current state")
 
 # Простенький калькулятор
 st.header("🧮 Simple usefulness for lasers")
@@ -22,7 +21,7 @@ with col2:
 
 
     # 1. Расчёт длины волны лазера
-st.header("1. Calculation of photon energy")
+st.header("2. Calculation of photon energy")
 col1, col2 = st.columns([1, 3])
 with col1:
     st.image("Images/photon energy.png", caption="Photon Energy")
@@ -33,7 +32,7 @@ with col2:
     st.write(f"**Result:** Photon energy = {E:.2e} J")
 
 
-st.header("1. Calculation of laser power density")
+st.header("3. Calculation of laser power density")
 col1, col2 = st.columns([1, 3])
 with col1:
     st.image("Images/power density.png", caption="Power Density")
