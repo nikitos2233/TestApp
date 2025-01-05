@@ -13,7 +13,7 @@ st.header("🧮 Simple usefulness for lasers")
 # 1. Расчёт длины волны лазера
 st.header("Calculation of laser wavelength")
 
-st.image("images/energy.png", caption="Laser Energy")
+st.image("Images/energy.png", caption="Laser Energy")
 f = st.number_input("Enter the frequency (Hz):", min_value=1.0, value=1e14, step=1e12, format="%.1e")
 c = 3e8  # Скорость света (м/с)
 lambda_wave = c / f
