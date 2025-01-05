@@ -2,8 +2,10 @@
 import streamlit as st
 
 # Заголовок приложения
-st.title("🎈 Brendas Calc")
-st.image("Images/programmer.png", caption="Autor current state")
+
+col1, col2 = st.columns([1, 3])
+with col1: st.image("Images/programmer.png", caption="Autor current state")
+with col2: st.title("🎈 Brendas Calc")
 
 # Простенький калькулятор
 st.header("🧮 Simple usefulness for lasers")
