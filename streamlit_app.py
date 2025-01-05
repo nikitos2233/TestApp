@@ -12,7 +12,7 @@ st.header("🧮 Simple usefulness for lasers")
 # 1. Расчёт длины волны лазера
 col1, col2 = st.columns([1, 3])
 with col1:
-    st.image("Images/energy.png", caption="Laser Energy", use_container_widt="always")
+    st.image("Images/energy.png", caption="Laser Energy", use_container_widt=True)
 with col2:
     st.header("1. Расчёт длины волны лазера")
     f = st.number_input("Введите частоту (Гц):", min_value=1.0, value=1e14, step=1e12, format="%.1e")
