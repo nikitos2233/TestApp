@@ -4,7 +4,7 @@ import streamlit as st
 # Заголовок приложения
 
 col1, col2 = st.columns([1, 3])
-with col1: st.image("Images/programmer.png", caption="Autor current state")
+with col1: st.image("Images/programmer.png", caption="Brenda")
 with col2: st.title("🎈 Brendas Calc")
 
 # Простенький калькулятор
