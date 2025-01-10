@@ -49,7 +49,7 @@ with col2:
 st.header("4. Light absolut Power losses to dB")
 col1, col2, col3 = st.columns([3,1,1])
 with col1:
-    formula = r"L = 10 \cdot \log_{10}\left(\frac{P_{\text{вх}}}{P_{\text{вых}}}\right)"
+    formula = r"L = 10 \cdot \log_{10}\left(\frac{P_{\text{in}}}{P_{\text{out}}}\right)"
     st.latex(formula)
 with col2: 
     P_in = st.number_input("Input Power (mW)", min_value=0.0, step=0.1)
